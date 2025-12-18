@@ -1,0 +1,31 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Step 1: Load Excel file
+df = pd.read_excel("sales_data.xlsx")
+
+# Step 2: Basic Info
+print("Dataset Overview:")
+print(df.head())
+print("\nSummary:")
+print(df.describe())
+
+# Step 3: Total Sales
+total_sales = df["Sales"].sum()
+print("\nTotal Sales:", total_sales)
+
+# Step 4: Best Selling Product
+best_product = df.groupby("Product")["Sales"].sum().idxmax()
+print("Best Selling Product:", best_product)
+
+# Step 5: Region with Highest Sales
+best_region = df.groupby("Region")["Sales"].sum().idxmax()
+print("Region with Highest Sales:", best_region)
+
+# Step 6: Visualization
+df.groupby("Product")["Sales"].sum().plot(kind="bar", title="Sales by Product")
+plt.ylabel("Total Sales")
+plt.show()
+
+df.groupby("Region")["Sales"].sum().plot(kind="pie", autopct='%1.1f%%', title="Sales by Region")
+plt.show()
