@@ -5,7 +5,7 @@ This repository serves as a living portfolio of my technical growth, consistency
    📊 Daily Progress Dashboard
 Day	Date	Status	Focus	Commit Link
 Day 1	Dec 13, 2024	✅ Completed	Python Syntax & Control Flow	#1
-Day 2	Dec 14, 2024	✅ Completed	Functions & Modules	#2
+Day 2	Dec 
 
 
      🎯 Mission Objective
