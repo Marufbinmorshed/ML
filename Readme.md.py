@@ -46,35 +46,35 @@ Goal: 100+ algorithmic exercises in /Assignments
 🔵 Phase 2:
 
 Software Engineering Excellence
-Data Structures: Arrays, Linked Lists, Trees, Graphs
+Data Structures  : Arrays, Linked Lists, Trees, Graphs
 
-Algorithms: Search, Sort, Dynamic Programming
+Algorithms       : Search, Sort, Dynamic Programming
 
-OOP Principles: Encapsulation, Inheritance, Polymorphism
+OOP Principles   : Encapsulation, Inheritance, Polymorphism
 
 Clean Code: PEP 8, Documentation, Unit Testing
 
 🟣 Phase 3:
 
 AI & Research Stack
-Data Science: NumPy, Pandas, Matplotlib/Seaborn
+Data Science     : NumPy, Pandas, Matplotlib/Seaborn
 
-Machine Learning: Scikit-learn, Model Evaluation
+Machine Learning : Scikit-learn, Model Evaluation
 
-Deep Learning: TensorFlow, PyTorch, Neural Networks
+Deep Learning    : TensorFlow, PyTorch, Neural Networks
 
-Advanced Topics: NLP, LLMs, Computer Vision
+Advanced Topics  : NLP, LLMs, Computer Vision
 
 🔴 Phase 4: 
 
 Full-Stack MVP & Deployment
-Backend API: FastAPI/Flask with RESTful design
+Backend API      : FastAPI/Flask with RESTful design
 
-Frontend: Streamlit dashboard or React integration
+Frontend         : Streamlit dashboard or React integration
 
-Database: PostgreSQL with SQLAlchemy ORM
+Database         : PostgreSQL with SQLAlchemy ORM
 
-DevOps: Docker, CI/CD (GitHub Actions), Cloud Deployment
+DevOps           : Docker, CI/CD (GitHub Actions), Cloud Deployment
 
 
 120-Day-Python-Developer/
