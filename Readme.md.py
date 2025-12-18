@@ -32,8 +32,9 @@ gantt
     section Phase 4
     Full-Stack MVP          :2025-03-15, 30d
 
-  🟢 Phase 1: Python Foundations (Current)
-python
+  🟢 Phase 1: 
+
+Python Foundations (Current)
 # Core Competencies Being Mastered
 - ✅ Variables, Data Types, Operators
 - ✅ Control Flow (if/else, loops)
@@ -42,7 +43,9 @@ python
 - ⬜ File I/O Operations
 Goal: 100+ algorithmic exercises in /Assignments
 
-🔵 Phase 2: Software Engineering Excellence
+🔵 Phase 2:
+
+Software Engineering Excellence
 Data Structures: Arrays, Linked Lists, Trees, Graphs
 
 Algorithms: Search, Sort, Dynamic Programming
@@ -51,7 +54,9 @@ OOP Principles: Encapsulation, Inheritance, Polymorphism
 
 Clean Code: PEP 8, Documentation, Unit Testing
 
-🟣 Phase 3: AI & Research Stack
+🟣 Phase 3:
+
+AI & Research Stack
 Data Science: NumPy, Pandas, Matplotlib/Seaborn
 
 Machine Learning: Scikit-learn, Model Evaluation
@@ -60,7 +65,9 @@ Deep Learning: TensorFlow, PyTorch, Neural Networks
 
 Advanced Topics: NLP, LLMs, Computer Vision
 
-🔴 Phase 4: Full-Stack MVP & Deployment
+🔴 Phase 4: 
+
+Full-Stack MVP & Deployment
 Backend API: FastAPI/Flask with RESTful design
 
 Frontend: Streamlit dashboard or React integration
