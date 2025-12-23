@@ -1,7 +1,14 @@
+import time
 
-data = list(range(10_000_000))
+data = list(range(1000000))
 
-target = -5
-found = target in data
+# Build dictionary
+start = time.time()
+d = {x: True for x in data}
+print("Dictionary build time:", time.time() - start)
 
-print("Found:", found)
+# Search
+start = time.time()
+print(999999 in d)
+print("Lookup time:", time.time() - start)
+)
