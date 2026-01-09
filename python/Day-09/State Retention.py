@@ -1,7 +1,17 @@
-import sys
+def running_average():
+    total = 0
+    count = 0
+    while True:
+        num = yield
+        total += num
+        count += 1
+        yield total / count
 
-lst = [x for x in range(1_000_000)]
-gen = (x for x in range(1_000_000))
+avg = running_average()
+next(avg)
 
-print("List size:", sys.getsizeof(lst))
-print("Generator size:", sys.getsizeof(gen))
+print(avg.send(10))
+next(avg)
+print(avg.send(20))
+next(avg)
+print(avg.send(30))
